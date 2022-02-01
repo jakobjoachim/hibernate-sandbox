@@ -1,0 +1,9 @@
+logging.level:
+    org:
+        hibernate:
+            SQL: TRACE
+#            type.descriptor.sql: TRACE
+        springframework:
+            jdbc:
+                core:
+                    JdbcTemplate: DEBUG
